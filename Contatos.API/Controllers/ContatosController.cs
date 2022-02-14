@@ -131,7 +131,7 @@ namespace Contatos.API.Controllers
                         DeleteImage(contato.ImagemURL);
                     }
 
-                    return Ok(new { message = "Contato Excluido." });
+                    return Ok(new { message = "Ok" });
                 }
                 else
                 {

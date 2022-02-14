@@ -10,7 +10,7 @@ namespace Contatos.Application.Dtos
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public string Nome { get; set; }
 
-        public string SobreNome { get; set; }
+        public string Sobrenome { get; set; }
 
         public string Empresa { get; set; }
 
